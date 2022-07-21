@@ -54,7 +54,7 @@ require_once('dbConfig.php');
         } ?>
         </div>
 
-        <footer>Tim Lucas Enterprises</footer>
+        <footer>Lucas Creative Media</footer>
   </div>
   </body>
 </html>
