@@ -42,7 +42,7 @@ require_once('dbConfig.php');
             $hours =          $_POST['hours'];
             $completiondate = $_POST['completiondate'];
 
-            $sql = "INSERT INTO jobs (first_name, last_name, job_number, job_hours, completion_date) VALUES (?,?,?,?,?)";
+            $sql = "INSERT INTO ??? (first_name, last_name, job_number, job_hours, completion_date) VALUES (?,?,?,?,?)";
             $statementinsert = $db->prepare($sql);
             $result = $statementinsert->execute([$fname, $lname, $jobnumber, $hours, $completiondate]);
             if ($result) {
